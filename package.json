@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "preview": "PORT=7000 nuxi preview",
+    "postinstall": "nuxi prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "nuxi": "^3.0.0-rc.12",
+    "nuxt": "^3.0.0-rc.12",
+    "nuxt3": "^3.0.0-rc.13-27769840.0106e09"
+  }
+}
